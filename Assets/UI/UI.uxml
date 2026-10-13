@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Stage : 0 " name="StageLabel" style="position: absolute; top: 0%; align-self: center; font-size: 66px; color: rgb(255, 255, 255);"/>
+    <ui:Image name="Health" source="project://database/Assets/Simple%202D%20Platformer%20BE2/Sprites/Player.png?fileID=-6447722072507503168&amp;guid=10f3cacccb0c4c547be76836eba20664&amp;type=3#Idle 0" style="background-image: none; height: 70px; width: 70px;"/>
+    <ui:Image name="Health" source="project://database/Assets/Simple%202D%20Platformer%20BE2/Sprites/Player.png?fileID=-6447722072507503168&amp;guid=10f3cacccb0c4c547be76836eba20664&amp;type=3#Idle 0" class="health" style="background-image: none; height: 70px; width: 70px; background-position-x: center; position: absolute; top: 0; left: 85px;"/>
+    <ui:Image name="Health" source="project://database/Assets/Simple%202D%20Platformer%20BE2/Sprites/Player.png?fileID=-6447722072507503168&amp;guid=10f3cacccb0c4c547be76836eba20664&amp;type=3#Idle 0" style="background-image: none; height: 70px; width: 70px; background-position-x: center; position: absolute; top: 0; left: 174px;"/>
+    <ui:Button text="Retry?" name="RetryButton" style="position: absolute; top: 352px; align-self: center; font-size: 71px; left: 499px;"/>
+    <ui:Label text="999999" name="PointLabel" style="white-space: nowrap; position: absolute; top: 0; left: auto; height: 81px; width: 232px; right: 0; font-size: 61px;"/>
+    <ui:Label text="Clear!" name="ClearLabel" style="position: absolute; top: 50%; align-self: center; font-size: 89px; left: auto; background-color: rgb(255, 255, 255); padding-left: 15px; padding-right: 18px;"/>
+</ui:UXML>
